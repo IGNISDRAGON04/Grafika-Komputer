@@ -44,9 +44,9 @@ public class play extends World
 
     public void act(){
         if(Greenfoot.getRandomNumber(600)<1){
-            addObject(new pizza(),Greenfoot.getRandomNumber(1900),1);
+            addObject(new pizza(),Greenfoot.getRandomNumber(600),1);
         }
-        if(Greenfoot.getRandomNumber(1200)<1){
+        if(Greenfoot.getRandomNumber(700)<1){
             addObject(new tire(),Greenfoot.getRandomNumber(1000),1);
         }
         music.play();
